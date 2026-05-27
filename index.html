@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta -->
+    <title>Paul Keene | Fractional CMO | AI-Native Marketing Leadership | UK</title>
+    <meta name="description" content="Fractional CMO with 25+ years in B2B digital marketing. AI-native strategy and execution for SaaS, FinTech and RegTech scaleups. Senior leadership without the headcount. Based in the UK.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://paulkeene.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://paulkeene.com/">
+    <meta property="og:title" content="Paul Keene | Fractional CMO | AI-Native Marketing Leadership">
+    <meta property="og:description" content="Senior marketing strategy and AI-driven execution for B2B SaaS, FinTech and RegTech scaleups. 25+ years experience. Based in the UK.">
+    <meta property="og:image" content="https://paulkeene.com/images/paul-hero.jpg">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:site_name" content="Paul Keene | Fractional CMO">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Paul Keene | Fractional CMO | AI-Native Marketing Leadership">
+    <meta name="twitter:description" content="Senior marketing strategy and AI-driven execution for B2B SaaS, FinTech and RegTech scaleups. 25+ years experience.">
+    <meta name="twitter:image" content="https://paulkeene.com/images/paul-hero.jpg">
+
+    <!-- Schema.org Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Paul Keene",
+      "jobTitle": "Fractional CMO",
+      "description": "AI-Native Fractional CMO with 25+ years in B2B digital marketing. Specialising in SaaS, FinTech and RegTech scaleups.",
+      "url": "https://paulkeene.com",
+      "image": "https://paulkeene.com/images/paul-hero.jpg",
+      "sameAs": ["https://www.linkedin.com/in/paulhkeene/"],
+      "email": "hello@paulkeene.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "addressCountry": "GB"
+      },
+      "knowsAbout": ["Fractional CMO", "B2B Marketing", "SaaS Growth", "FinTech Marketing", "RegTech", "AI Marketing", "Demand Generation", "Account-Based Marketing"]
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;450;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --greige:     #F5F2EC;
+            --greige-dk:  #EDE9E1;
+            --navy:       #1C3358;
+            --navy-dk:    #152844;
+            --navy-lt:    #2A4A78;
+            --accent:     #C4924A;
+            --white:      #FFFFFF;
+            --black:      #0D0D0D;
+            --text-dark:  #1C3358;
+            --text-mid:   #3A4E68;
+            --text-muted: #7A8A9A;
+            --font-serif: 'Playfair Display', Georgia, serif;
+            --font-sans:  'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-sans);
+            color: var(--text-dark);
+            background: var(--white);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ── SCROLL ANIMATIONS ───────────────────────────────── */
+        .reveal {
+            opacity: 0;
+            transform: translateY(28px);
+            transition: opacity 0.65s ease, transform 0.65s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .reveal-delay-1 { transition-delay: 0.1s; }
+        .reveal-delay-2 { transition-delay: 0.2s; }
+        .reveal-delay-3 { transition-delay: 0.3s; }
+
+        /* ── NAV ─────────────────────────────────────────────── */
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+            height: 68px;
+            padding: 0 56px;
+            display: flex; justify-content: space-between; align-items: center;
+            background: rgba(255,255,255,0.97);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0,0,0,0.07);
+        }
+        .nav-logo {
+            display: flex; align-items: center;
+            text-decoration: none;
+        }
+        .nav-logo img {
+            height: 56px; width: auto; display: block;
+            filter: brightness(0);
+        }
+        .nav-links {
+            display: flex; gap: 36px; align-items: center;
+        }
+        .nav-links a {
+            font-family: var(--font-sans);
+            color: rgba(30,30,30,0.52);
+            font-size: 13.5px; font-weight: 450;
+            text-decoration: none; letter-spacing: 0.1px;
+            transition: color .2s;
+        }
+        .nav-links a:hover { color: var(--navy); }
+        .nav-cta {
+            background: var(--navy); color: var(--white) !important;
+            text-decoration: none;
+            padding: 9px 20px; border-radius: 4px;
+            font-size: 13px; font-weight: 500;
+            letter-spacing: 0.2px;
+            transition: background .2s, transform .15s;
+        }
+        .nav-cta:hover {
+            background: var(--navy-dk);
+            transform: translateY(-1px);
+        }
+
+        /* Hamburger */
+        .nav-hamburger {
+            display: none;
+            flex-direction: column; justify-content: center;
+            gap: 5px; width: 32px; height: 32px;
+            cursor: pointer; background: none; border: none; padding: 4px;
+        }
+        .nav-hamburger span {
+            display: block; width: 22px; height: 1.5px;
+            background: var(--navy);
+            transition: all .3s ease;
+            transform-origin: center;
+        }
+        .nav-hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+        .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+        .nav-hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+        .mobile-menu {
+            display: none;
+            position: fixed; top: 68px; left: 0; right: 0; z-index: 190;
+            background: rgba(255,255,255,0.98);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+            padding: 24px 24px 32px;
+            flex-direction: column; gap: 0;
+        }
+        .mobile-menu.open { display: flex; }
+        .mobile-menu a {
+            color: var(--text-dark);
+            font-size: 16px; font-weight: 450;
+            text-decoration: none;
+            padding: 14px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+            transition: color .2s;
+        }
+        .mobile-menu a:last-child { border-bottom: none; }
+        .mobile-menu a:hover { color: var(--accent); }
+        .mobile-menu .mobile-cta {
+            margin-top: 20px;
+            background: var(--navy); color: var(--white);
+            text-align: center; border-radius: 4px;
+            padding: 14px; font-weight: 500;
+            border-bottom: none;
+        }
+        .mobile-menu .mobile-cta:hover { background: var(--navy-dk); color: var(--white); }
+
+        /* ── HERO ────────────────────────────────────────────── */
+        .hero {
+            min-height: 100vh;
+            background: var(--greige);
+            display: flex; align-items: center;
+            padding: 130px 56px 96px;
+            position: relative; overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute; inset: 0;
+            background: radial-gradient(ellipse at 70% 50%, rgba(255,255,255,0.4) 0%, transparent 60%);
+            pointer-events: none;
+        }
+        .hero-grid {
+            max-width: 1160px; margin: 0 auto; width: 100%;
+            display: grid; grid-template-columns: 1fr 360px;
+            gap: 96px; align-items: center;
+            position: relative; z-index: 1;
+        }
+        .hero-eyebrow {
+            display: inline-flex; align-items: center; gap: 12px;
+            margin-bottom: 32px;
+        }
+        .hero-eyebrow-line {
+            width: 32px; height: 1px;
+            background: rgba(28,51,88,0.3);
+        }
+        .hero-eyebrow-text {
+            color: rgba(28,51,88,0.45);
+            font-size: 11px; font-weight: 600;
+            letter-spacing: 2.8px; text-transform: uppercase;
+        }
+
+        /* Available badge */
+        .available-badge {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: rgba(255,255,255,0.7);
+            border: 1px solid rgba(34,197,94,0.25);
+            border-radius: 20px;
+            padding: 5px 12px 5px 9px;
+            margin-bottom: 24px;
+            font-size: 12px; font-weight: 500;
+            color: var(--text-mid);
+            backdrop-filter: blur(4px);
+        }
+        .available-dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            background: #22c55e;
+            flex-shrink: 0;
+            box-shadow: 0 0 0 0 rgba(34,197,94,0.4);
+            animation: pulse-green 2s infinite;
+        }
+        @keyframes pulse-green {
+            0%   { box-shadow: 0 0 0 0 rgba(34,197,94,0.4); }
+            70%  { box-shadow: 0 0 0 7px rgba(34,197,94,0); }
+            100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+        }
+
+        .hero h1 {
+            font-family: var(--font-serif);
+            color: var(--navy);
+            font-size: clamp(44px, 5.5vw, 72px);
+            font-weight: 700;
+            line-height: 1.06; letter-spacing: -0.5px;
+            margin-bottom: 28px;
+        }
+        .hero h1 em {
+            font-style: italic;
+            color: var(--accent);
+        }
+        .hero-sub {
+            color: rgba(28,51,88,0.6);
+            font-size: 17.5px; font-weight: 400;
+            line-height: 1.7; max-width: 460px;
+            margin-bottom: 12px;
+        }
+        .hero-meta {
+            color: rgba(28,51,88,0.35);
+            font-size: 11.5px; letter-spacing: 0.6px;
+            margin-bottom: 48px;
+        }
+        .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+        /* ── BUTTONS ─────────────────────────────────────────── */
+        .btn {
+            display: inline-flex; align-items: center; gap: 9px;
+            background: var(--navy); color: var(--white);
+            text-decoration: none; padding: 13px 26px;
+            border-radius: 4px; font-size: 14px; font-weight: 500;
+            letter-spacing: 0.1px;
+            transition: background .2s, transform .15s, box-shadow .2s;
+            white-space: nowrap;
+            border: none; cursor: pointer;
+        }
+        .btn:hover {
+            background: var(--navy-dk);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 16px rgba(28,51,88,0.2);
+            color: var(--white);
+        }
+        .btn-navy {
+            background: var(--navy); color: var(--white);
+        }
+        .btn-navy:hover {
+            background: var(--navy-dk);
+            box-shadow: 0 4px 16px rgba(28,51,88,0.25);
+            color: var(--white);
+        }
+        .btn-ghost-light {
+            background: transparent;
+            border: 1.5px solid rgba(28,51,88,0.55);
+            color: var(--navy);
+        }
+        .btn-ghost-light:hover {
+            background: rgba(28,51,88,0.06);
+            border-color: var(--navy);
+            box-shadow: none;
+            color: var(--navy);
+        }
+        .btn-outline-navy {
+            background: transparent;
+            border: 1.5px solid var(--navy);
+            color: var(--navy);
+        }
+        .btn-outline-navy:hover {
+            background: var(--navy);
+            color: var(--white);
+            box-shadow: 0 4px 16px rgba(28,51,88,0.2);
+        }
+        .btn svg { flex-shrink: 0; }
+
+        .hero-photo { position: relative; }
+        .hero-photo img {
+            width: 100%; aspect-ratio: 4/5;
+            object-fit: cover; object-position: center 18%;
+            border-radius: 4px; display: block;
+            opacity: 0.88;
+        }
+
+        /* ── STATS ───────────────────────────────────────────── */
+        .stats {
+            background: var(--white);
+            border-top: 1px solid rgba(0,0,0,0.07);
+            border-bottom: 1px solid rgba(0,0,0,0.07);
+            padding: 56px 56px;
+        }
+        .stats-grid {
+            max-width: 1160px; margin: 0 auto;
+            display: grid; grid-template-columns: repeat(4,1fr);
+        }
+        .stat {
+            text-align: center; padding: 0 20px;
+            border-right: 1px solid rgba(0,0,0,0.08);
+        }
+        .stat:last-child { border-right: none; }
+        .stat-num {
+            display: block;
+            font-family: var(--font-serif);
+            color: var(--navy);
+            font-size: 42px; font-weight: 600;
+            letter-spacing: -0.5px; line-height: 1;
+            margin-bottom: 10px;
+        }
+        .stat-label {
+            color: rgba(28,51,88,0.5);
+            font-size: 12.5px; line-height: 1.5;
+        }
+
+        /* ── SECTIONS ────────────────────────────────────────── */
+        section { padding: 104px 56px; }
+        .inner { max-width: 1160px; margin: 0 auto; }
+
+        .section-label {
+            font-size: 10.5px; font-weight: 600;
+            letter-spacing: 3px; text-transform: uppercase;
+            margin-bottom: 14px;
+            color: var(--text-muted);
+        }
+        .section-label.light { color: rgba(255,255,255,0.38); }
+
+        h2 {
+            font-family: var(--font-serif);
+            font-size: clamp(28px, 3.2vw, 44px);
+            font-weight: 600; letter-spacing: -0.3px;
+            color: var(--text-dark); line-height: 1.14;
+            margin-bottom: 52px;
+        }
+
+        /* ── ABOUT ───────────────────────────────────────────── */
+        .about { background: var(--white); }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 340px;
+            gap: 88px; align-items: start;
+        }
+        .about-text p {
+            color: var(--text-mid);
+            font-size: 16.5px; line-height: 1.82;
+            margin-bottom: 18px;
+        }
+        .about-text p:last-of-type { margin-bottom: 36px; }
+        .about-text a:not(.btn) { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; }
+        .about-text a:not(.btn):hover { color: var(--navy-dk); }
+        .about-photo img {
+            width: 100%; border-radius: 4px; display: block;
+        }
+
+        /* ── SERVICES ────────────────────────────────────────── */
+        .services { background: var(--greige); }
+        .services-grid {
+            display: grid; grid-template-columns: repeat(3,1fr);
+            gap: 16px;
+        }
+        .scard {
+            background: var(--white);
+            border: 1px solid rgba(28,51,88,0.1);
+            border-radius: 4px; padding: 40px 36px;
+            transition: background .25s, box-shadow .25s;
+        }
+        .scard:hover {
+            box-shadow: 0 4px 20px rgba(28,51,88,0.08);
+        }
+        .scard-num {
+            color: rgba(28,51,88,0.25);
+            font-size: 10.5px; font-weight: 600;
+            letter-spacing: 2.5px; margin-bottom: 20px;
+        }
+        .scard h3 {
+            font-family: var(--font-serif);
+            font-size: 19px; font-weight: 600;
+            color: var(--navy); margin-bottom: 14px;
+            letter-spacing: -0.1px; line-height: 1.3;
+        }
+        .scard p {
+            color: var(--text-mid);
+            font-size: 14.5px; line-height: 1.75;
+        }
+
+        /* ── HOW I WORK ──────────────────────────────────────── */
+        .process { background: var(--navy); padding: 104px 56px; }
+        .process .section-label { color: rgba(255,255,255,0.35); }
+        .process h2 { color: var(--white); margin-bottom: 64px; }
+        .process-grid {
+            display: grid; grid-template-columns: repeat(3,1fr);
+            gap: 1px; background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 4px; overflow: hidden;
+        }
+        .process-step {
+            background: var(--navy);
+            padding: 48px 40px;
+            transition: background .25s;
+        }
+        .process-step:hover { background: var(--navy-lt); }
+        .process-step-num {
+            font-family: var(--font-serif);
+            font-size: 36px; font-weight: 700;
+            color: rgba(255,255,255,0.45);
+            line-height: 1; margin-bottom: 20px;
+            display: block;
+        }
+        .process-step h3 {
+            font-family: var(--font-serif);
+            color: var(--white);
+            font-size: 20px; font-weight: 600;
+            margin-bottom: 16px; letter-spacing: -0.1px;
+        }
+        .process-step p {
+            color: rgba(255,255,255,0.6);
+            font-size: 14.5px; line-height: 1.75;
+        }
+        .process-step-accent {
+            display: inline-block;
+            width: 24px; height: 2px;
+            background: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        /* ── WHO ─────────────────────────────────────────────── */
+        .who { background: var(--greige); }
+        .who-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 88px; align-items: start;
+        }
+        .who-text p {
+            color: var(--text-mid);
+            font-size: 16.5px; line-height: 1.82;
+            margin-bottom: 36px;
+        }
+        .who-list {
+            list-style: none;
+            display: flex; flex-direction: column;
+        }
+        .who-list li {
+            display: flex; align-items: flex-start; gap: 16px;
+            color: var(--text-mid); font-size: 15.5px; line-height: 1.6;
+            padding: 18px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+        }
+        .who-list li:first-child { border-top: 1px solid rgba(0,0,0,0.08); }
+        .who-list li::before {
+            content: '';
+            flex-shrink: 0; margin-top: 9px;
+            width: 4px; height: 4px; border-radius: 50%;
+            background: var(--navy); opacity: 0.5;
+        }
+
+        /* ── CASE STUDIES ────────────────────────────────────── */
+        .cases { background: var(--white); }
+        .cs-logo {
+            max-height: 48px; width: auto; max-width: 220px; display: block;
+            margin-bottom: 16px;
+            filter: grayscale(1);
+            opacity: 0.8;
+        }
+        .cs-sec-logo {
+            max-height: 44px; width: auto; max-width: 260px; display: block;
+            margin-bottom: 14px;
+            filter: grayscale(1);
+            opacity: 0.8;
+        }
+        .cs {
+            border-top: 1px solid rgba(0,0,0,0.07);
+            padding: 64px 0;
+        }
+        .cs:last-child { border-bottom: 1px solid rgba(0,0,0,0.07); }
+        .cs-header {
+            margin-bottom: 36px;
+        }
+        .cs-name-row {
+            display: flex; align-items: center; gap: 14px;
+            flex-wrap: wrap; margin-bottom: 7px;
+        }
+        .cs-tag {
+            flex-shrink: 0;
+            background: rgba(28,51,88,0.05);
+            border: 1px solid rgba(28,51,88,0.12);
+            color: rgba(28,51,88,0.5);
+            font-size: 9.5px; font-weight: 700;
+            letter-spacing: 1.6px; text-transform: uppercase;
+            padding: 5px 12px; border-radius: 2px;
+        }
+        .cs-name {
+            font-family: var(--font-serif);
+            color: var(--navy);
+            font-size: 24px; font-weight: 600;
+            letter-spacing: -0.2px;
+            line-height: 1.25;
+        }
+        .cs-stat {
+            color: rgba(28,51,88,0.4);
+            font-size: 13px; letter-spacing: 0.1px;
+        }
+        .cs-body p {
+            color: var(--text-mid);
+            font-size: 15.5px; line-height: 1.82;
+            margin-bottom: 16px; max-width: 760px;
+        }
+        .cs-bullets {
+            margin-top: 32px;
+            display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+        }
+        .cs-bullet {
+            display: flex; align-items: flex-start; gap: 12px;
+            color: var(--text-mid);
+            font-size: 13.5px; line-height: 1.6;
+            padding: 14px 16px;
+            background: var(--greige);
+            border: 1px solid rgba(28,51,88,0.08);
+            border-radius: 3px;
+        }
+        .cs-bullet-arrow {
+            color: var(--accent);
+            flex-shrink: 0; font-size: 12px; margin-top: 2px;
+        }
+        .cs-quote {
+            margin-top: 40px; padding: 28px 32px;
+            background: var(--greige);
+            border-left: 2px solid var(--accent);
+            border-radius: 0 4px 4px 0;
+            max-width: 720px;
+        }
+        .cs-quote p {
+            font-family: var(--font-serif);
+            font-style: italic;
+            color: var(--navy) !important;
+            font-size: 17px !important;
+            line-height: 1.65 !important;
+            margin-bottom: 12px !important;
+            max-width: none !important;
+        }
+        .cs-quote cite {
+            color: rgba(28,51,88,0.4);
+            font-size: 12.5px; font-style: normal;
+        }
+
+        /* Secondary 2×2 */
+        .cs-secondary {
+            display: grid; grid-template-columns: 1fr 1fr;
+            border-top: 1px solid rgba(0,0,0,0.07);
+        }
+        .cs-sec {
+            padding: 52px 48px 52px 0;
+            border-right: 1px solid rgba(0,0,0,0.07);
+        }
+        .cs-sec:nth-child(even) {
+            border-right: none; padding: 52px 0 52px 48px;
+        }
+        .cs-sec:nth-child(n+3) { border-top: 1px solid rgba(0,0,0,0.07); }
+        .cs-sec-tag {
+            color: rgba(28,51,88,0.35);
+            font-size: 10px; font-weight: 700;
+            letter-spacing: 1.8px; text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        .cs-sec h3 {
+            font-family: var(--font-serif);
+            color: var(--navy);
+            font-size: 19px; font-weight: 600;
+            margin-bottom: 4px; letter-spacing: -0.1px;
+        }
+        .cs-sec h4 {
+            color: rgba(28,51,88,0.4);
+            font-size: 12.5px; font-weight: 400;
+            margin-bottom: 18px; line-height: 1.5;
+        }
+        .cs-sec p {
+            color: var(--text-mid);
+            font-size: 13.5px; line-height: 1.75;
+        }
+
+        /* ── LOGOS ───────────────────────────────────────────── */
+        .logos {
+            background: var(--white); padding: 72px 56px;
+            border-top: 1px solid rgba(0,0,0,0.07);
+        }
+        .logos-label {
+            text-align: center;
+            color: rgba(0,0,0,0.3);
+            font-size: 10.5px; font-weight: 600;
+            letter-spacing: 3px; text-transform: uppercase;
+            margin-bottom: 48px;
+        }
+        .logo-grid {
+            display: grid; grid-template-columns: repeat(4,1fr);
+            align-items: center;
+            max-width: 920px; margin: 0 auto;
+        }
+        .logo-item {
+            display: flex; align-items: center; justify-content: center;
+            padding: 32px 28px;
+            filter: grayscale(1);
+            opacity: 0.42;
+            transition: all .35s ease;
+        }
+        .logo-item:hover {
+            filter: grayscale(0);
+            opacity: 1;
+        }
+        .logo-item img {
+            max-width: 130px; max-height: 64px; width: auto; object-fit: contain;
+        }
+        .logo-item img[alt="Start My Claim"] {
+            max-height: 52px; max-width: 52px;
+        }
+        .logo-item img[alt="Department for Education"] {
+            max-width: 280px; max-height: 48px;
+        }
+        .logo-item img[alt="NHS"] {
+            max-width: 160px; max-height: 64px;
+        }
+        /* White-on-transparent logos — invert to make them dark on white bg */
+        .logo-item.logo-light {
+            filter: invert(1) grayscale(1);
+            opacity: 0.42;
+        }
+        .logo-item.logo-light:hover {
+            filter: invert(0.85) grayscale(0);
+            opacity: 1;
+        }
+        .cs-sec-logo.logo-light,
+        .cs-logo.logo-light {
+            filter: invert(1) grayscale(1);
+            opacity: 0.8;
+        }
+
+        /* ── TESTIMONIALS ────────────────────────────────────── */
+        .testimonials { background: var(--greige); }
+        .testimonials h2 { margin-bottom: 56px; }
+        .testi-grid {
+            display: grid; grid-template-columns: 1fr;
+            gap: 20px;
+            max-width: 100%;
+        }
+        .tcard {
+            background: var(--white);
+            border: 1px solid rgba(28,51,88,0.08);
+            border-radius: 4px;
+            padding: 36px 32px;
+            display: flex; flex-direction: column;
+        }
+        .tcard-quote {
+            font-family: var(--font-serif);
+            font-style: italic;
+            color: var(--text-dark);
+            font-size: 16px; line-height: 1.7;
+            flex-grow: 1;
+            margin-bottom: 28px;
+        }
+        .tcard-quote::before {
+            content: '\201C';
+            font-size: 40px; line-height: 0.8;
+            color: var(--accent); opacity: 0.5;
+            display: block; margin-bottom: 8px;
+            font-style: normal;
+        }
+        .tcard-person {
+            display: flex; align-items: center; gap: 14px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(28,51,88,0.07);
+        }
+        .tcard-avatar {
+            width: 40px; height: 40px; border-radius: 50%;
+            background: var(--greige-dk);
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-serif);
+            font-size: 15px; font-weight: 600;
+            color: var(--navy); flex-shrink: 0;
+        }
+        .tcard-name {
+            font-weight: 500; font-size: 13.5px;
+            color: var(--text-dark);
+        }
+        .tcard-title {
+            font-size: 12px; color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        /* ── CONTACT FORM ────────────────────────────────────── */
+        .contact-section { background: var(--white); }
+        .contact-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 88px; align-items: start;
+        }
+        .contact-left h2 { margin-bottom: 20px; }
+        .contact-left p {
+            color: var(--text-mid);
+            font-size: 16px; line-height: 1.75;
+            margin-bottom: 16px;
+        }
+        .contact-left .contact-detail {
+            display: flex; align-items: center; gap: 10px;
+            color: var(--text-mid); font-size: 14px;
+            margin-bottom: 10px; text-decoration: none;
+            transition: color .2s;
+        }
+        .contact-left .contact-detail:hover { color: var(--navy); }
+        .contact-detail svg { flex-shrink: 0; opacity: 0.5; }
+        .contact-divider {
+            margin: 28px 0; height: 1px;
+            background: rgba(28,51,88,0.08);
+        }
+        .contact-calendly {
+            display: inline-flex; align-items: center; gap: 8px;
+            color: var(--navy); font-size: 14px; font-weight: 500;
+            text-decoration: none;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(28,51,88,0.2);
+            transition: border-color .2s, color .2s;
+        }
+        .contact-calendly:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        /* Form */
+        .contact-form { display: flex; flex-direction: column; gap: 16px; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        .form-group { display: flex; flex-direction: column; gap: 6px; }
+        .form-group label {
+            font-size: 12px; font-weight: 500;
+            color: var(--text-mid); letter-spacing: 0.3px;
+        }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            font-family: var(--font-sans);
+            font-size: 14.5px; color: var(--text-dark);
+            background: var(--white);
+            border: 1.5px solid rgba(28,51,88,0.15);
+            border-radius: 4px; padding: 11px 14px;
+            width: 100%;
+            transition: border-color .2s, box-shadow .2s;
+            outline: none;
+            -webkit-appearance: none;
+        }
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: var(--navy);
+            box-shadow: 0 0 0 3px rgba(28,51,88,0.08);
+        }
+        .form-group textarea {
+            resize: vertical; min-height: 120px; line-height: 1.6;
+        }
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: rgba(28,51,88,0.3);
+        }
+        .form-submit {
+            margin-top: 4px;
+        }
+        .form-note {
+            font-size: 11.5px; color: var(--text-muted);
+            margin-top: 8px; line-height: 1.5;
+        }
+
+        /* ── FOOTER ──────────────────────────────────────────── */
+        footer {
+            background: var(--greige);
+            padding: 56px 56px;
+            border-top: 1px solid rgba(0,0,0,0.08);
+        }
+        .footer-inner {
+            max-width: 1160px; margin: 0 auto;
+            display: flex; justify-content: space-between;
+            align-items: center; flex-wrap: wrap; gap: 24px;
+        }
+        .f-logo { display: flex; align-items: center; }
+        .f-logo img {
+            height: 48px; width: auto; display: block;
+            filter: brightness(0); opacity: 0.45;
+        }
+        .f-links { display: flex; gap: 32px; }
+        .f-links a {
+            color: rgba(28,51,88,0.5);
+            font-size: 14px; text-decoration: none;
+            transition: color .2s;
+        }
+        .f-links a:hover { color: var(--navy); }
+        .f-copy { color: rgba(28,51,88,0.4); font-size: 13px; }
+
+        /* ── RESPONSIVE ──────────────────────────────────────── */
+        @media (max-width: 1024px) {
+            nav { padding: 0 32px; }
+            section, .process { padding: 80px 32px; }
+            .hero { padding: 110px 32px 80px; }
+            .stats { padding: 52px 32px; }
+            .logos { padding: 60px 32px; }
+            footer { padding: 40px 32px; }
+        }
+
+        @media (max-width: 860px) {
+            nav { padding: 0 24px; }
+            .nav-links, .nav-cta { display: none; }
+            .nav-hamburger { display: flex; }
+            section, .process { padding: 72px 24px; }
+            .hero { padding: 96px 24px 72px; }
+            .hero-grid { grid-template-columns: 1fr; }
+            .hero-photo { display: none; }
+            .stats { padding: 48px 24px; }
+            .stats-grid { grid-template-columns: repeat(2,1fr); gap: 32px; }
+            .stat { border-right: none; }
+            .about-grid { grid-template-columns: 1fr; }
+            .about-photo { display: none; }
+            .services-grid { grid-template-columns: 1fr; }
+            .process-grid { grid-template-columns: 1fr; gap: 0; }
+            .process-step { border-top: 1px solid rgba(255,255,255,0.08); }
+            .process-step:first-child { border-top: none; }
+            .who-grid { grid-template-columns: 1fr; gap: 48px; }
+            .cs-bullets { grid-template-columns: 1fr; }
+            .cs-secondary { grid-template-columns: 1fr; }
+            .cs-sec { border-right: none !important; padding: 40px 0 !important; }
+            .cs-sec:nth-child(n+2) { border-top: 1px solid rgba(0,0,0,0.07); }
+            .logo-grid { grid-template-columns: repeat(3,1fr); }
+            .logos { padding: 56px 24px; }
+            .testi-grid { grid-template-columns: 1fr; }
+            .contact-grid { grid-template-columns: 1fr; gap: 48px; }
+            .form-row { grid-template-columns: 1fr; }
+            footer { padding: 36px 24px; }
+            .footer-inner { flex-direction: column; text-align: center; gap: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+    <a href="#" class="nav-logo">
+        <img src="images/paul-logo-white.png" alt="Paul Keene">
+    </a>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#how-i-work">How I Work</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <a href="https://calendly.com/cyberil/30min" target="_blank" class="nav-cta">Start a Conversation</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobile-menu">
+    <a href="#about" class="menu-link">About</a>
+    <a href="#services" class="menu-link">Services</a>
+    <a href="#how-i-work" class="menu-link">How I Work</a>
+    <a href="#case-studies" class="menu-link">Case Studies</a>
+    <a href="#contact" class="menu-link">Contact</a>
+    <a href="https://calendly.com/cyberil/30min" target="_blank" class="mobile-cta">Start a Conversation</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-grid">
+        <div>
+            <div class="available-badge">
+                <span class="available-dot"></span>
+                Currently available for new engagements
+            </div>
+            <div class="hero-eyebrow">
+                <span class="hero-eyebrow-line"></span>
+                <span class="hero-eyebrow-text">AI-Native Fractional CMO</span>
+            </div>
+            <h1>I replace a<br>marketing<br><em>team.</em></h1>
+            <p class="hero-sub">I build revenue engines, not marketing departments — senior strategy and AI-driven execution, without the headcount.</p>
+            <p class="hero-meta">Since 1999 &nbsp;·&nbsp; B2B SaaS &nbsp;·&nbsp; FinTech &nbsp;·&nbsp; RegTech &nbsp;·&nbsp; AI-Powered Marketing</p>
+            <div class="hero-actions">
+                <a href="https://calendly.com/cyberil/30min" target="_blank" class="btn">
+                    Schedule a Conversation
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#case-studies" class="btn btn-ghost-light">See Case Studies</a>
+            </div>
+        </div>
+        <div class="hero-photo">
+            <img src="images/paul-hero.jpg" alt="Paul Keene — Fractional CMO">
+        </div>
+    </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+    <div class="stats-grid">
+        <div class="stat reveal">
+            <span class="stat-num">25+</span>
+            <span class="stat-label">Years in digital<br>marketing</span>
+        </div>
+        <div class="stat reveal reveal-delay-1">
+            <span class="stat-num" style="font-size:clamp(28px,3.2vw,48px);">$3M→$20M</span>
+            <span class="stat-label">ARR growth<br>at Shufti Pro</span>
+        </div>
+        <div class="stat reveal reveal-delay-2">
+            <span class="stat-num">800+</span>
+            <span class="stat-label">Qualified leads<br>per month</span>
+        </div>
+        <div class="stat reveal reveal-delay-3">
+            <span class="stat-num">8 wks</span>
+            <span class="stat-label">To build a complete<br>AI business solo</span>
+        </div>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <div class="inner">
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p class="section-label">About</p>
+                <h2>Senior marketing leadership,<br>re-engineered for the AI era.</h2>
+                <p>I have been working in digital marketing since 1999 — long enough to have seen every major shift in how organisations reach their customers. The shift to AI is the biggest of all, and it is the one I have leaned into most.</p>
+                <p>Today I use AI to build and run high-output marketing functions that previously required teams of eight to ten people. Not theoretically — I have done it. I built <a href="https://startmyclaim.ai" target="_blank">startmyclaim.ai</a> from scratch: a live AI-powered consumer legal platform, designed, built and marketed by one person, in eight weeks.</p>
+                <p>My background spans B2B technology, global SaaS scale-ups, government programmes and major international brands. Most recently I led global demand generation and digital marketing at a RegTech SaaS business during a period of rapid growth following Series A funding.</p>
+                <p>What I bring to leadership teams is rare: 25 years of strategic marketing experience combined with the hands-on AI capability to deliver at speed, with a fraction of the usual overhead.</p>
+                <p>Based in the UK, working with organisations across Europe, the US and global markets.</p>
+                <a href="https://calendly.com/cyberil/30min" target="_blank" class="btn btn-navy" style="margin-top:10px;">Schedule a Conversation</a>
+            </div>
+            <figure class="about-photo reveal reveal-delay-1">
+                <img src="images/paul-about.jpeg" alt="Paul Keene" loading="lazy">
+            </figure>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+    <div class="inner">
+        <p class="section-label reveal">Services</p>
+        <h2 class="reveal">What I do</h2>
+        <div class="services-grid">
+            <div class="scard reveal">
+                <p class="scard-num">01</p>
+                <h3>Fractional CMO Leadership</h3>
+                <p>Senior marketing leadership alongside founders and executive teams. Strategy, structure, accountability and commercial alignment. Not external consultancy — embedded leadership with genuine skin in the game.</p>
+            </div>
+            <div class="scard reveal reveal-delay-1">
+                <p class="scard-num">02</p>
+                <h3>Growth Strategy &amp; Market Positioning</h3>
+                <p>Clarifying market narrative, value proposition and go-to-market direction. For organisations in periods of change, expansion or strategic reset — strengthening competitive positioning ahead of funded growth.</p>
+            </div>
+            <div class="scard reveal reveal-delay-2">
+                <p class="scard-num">03</p>
+                <h3>Demand &amp; Pipeline Transformation</h3>
+                <p>Designing and improving demand frameworks for predictable pipeline growth, enterprise engagement and long-term revenue performance. ABM, inbound, performance and content — built around measurable outcomes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HOW I WORK -->
+<section class="process" id="how-i-work">
+    <div class="inner">
+        <p class="section-label reveal">How I Work</p>
+        <h2 class="reveal">Three stages. Clear outcomes.</h2>
+        <div class="process-grid">
+            <div class="process-step reveal">
+                <span class="process-step-num">01</span>
+                <span class="process-step-accent"></span>
+                <h3>Discovery</h3>
+                <p>I start by understanding your commercial situation, marketing maturity and growth objectives. No assumptions, no pre-packaged frameworks — a clear view of what is working, what is not, and where the leverage is.</p>
+            </div>
+            <div class="process-step reveal reveal-delay-1">
+                <span class="process-step-num">02</span>
+                <span class="process-step-accent"></span>
+                <h3>Alignment</h3>
+                <p>I build strategy and messaging directly from discovery. Positioning, narrative, channel priorities and a realistic roadmap — aligned to board objectives and grounded in what your market actually responds to.</p>
+            </div>
+            <div class="process-step reveal reveal-delay-2">
+                <span class="process-step-num">03</span>
+                <span class="process-step-accent"></span>
+                <h3>Execution</h3>
+                <p>I deliver. Using AI across content, demand generation, digital marketing and marketing operations — I operate at the pace and output of a full team, without the overhead. Embedded, accountable, measurable.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WHO I WORK WITH -->
+<section class="who" id="who">
+    <div class="inner">
+        <div class="who-grid">
+            <div class="who-text reveal">
+                <p class="section-label">Who I Work With</p>
+                <h2>Growth-stage B2B technology companies.</h2>
+                <p>My work is focused on organisations where marketing maturity must evolve to support increasing commercial expectations. I am most effective where marketing is expected to drive measurable revenue impact — not just activity.</p>
+                <a href="https://calendly.com/cyberil/30min" target="_blank" class="btn btn-outline-navy">Explore whether there's a fit</a>
+            </div>
+            <div class="reveal reveal-delay-1">
+                <ul class="who-list">
+                    <li>Series A to Series C SaaS organisations</li>
+                    <li>FinTech, RegTech and trust-critical technology platforms</li>
+                    <li>Founder-led companies scaling towards enterprise markets</li>
+                    <li>Businesses requiring experienced leadership to stabilise pipeline and growth execution</li>
+                    <li>Organisations preparing for funding, expansion or exit</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CASE STUDIES -->
+<section class="cases" id="case-studies">
+    <div class="inner">
+        <p class="section-label reveal">Case Studies</p>
+        <h2 class="reveal">Results that speak for themselves.</h2>
+
+        <!-- Shufti Pro -->
+        <div class="cs reveal">
+            <div class="cs-header">
+                <img src="images/logo-shufti.png" alt="Shufti Pro" class="cs-logo" loading="lazy">
+                <div class="cs-name-row">
+                    <p class="cs-name">Shufti Pro — Global RegTech Scale-up</p>
+                    <span class="cs-tag">RegTech SaaS</span>
+                </div>
+                <p class="cs-stat">ARR growth: ~$3M → $20M &nbsp;·&nbsp; 3-year tenure &nbsp;·&nbsp; Post-Series A</p>
+            </div>
+            <div class="cs-body">
+                <p>Led global marketing strategy during a period of rapid international expansion, supporting Shufti's transition from SME-focused challenger brand to enterprise-oriented RegTech scale-up operating across EMEA, MENA, APAC and the Americas.</p>
+                <p>Directed the shift to structured account-based enterprise growth, establishing a scalable global demand engine aligned to board-level commercial objectives. Repositioned brand, proposition and go-to-market strategy to support engagement with larger regulated enterprises and complex buying groups.</p>
+                <p>Built and led a multi-regional marketing function spanning demand generation, brand, content, digital and marketing operations — creating the foundations for predictable pipeline performance and sustained commercial scale.</p>
+                <div class="cs-bullets">
+                    <div class="cs-bullet"><span class="cs-bullet-arrow">→</span> Built global inbound demand engine generating 800–1,000 qualified leads per month</div>
+                    <div class="cs-bullet"><span class="cs-bullet-arrow">→</span> Scaled marketing-sourced pipeline from early-stage volumes to enterprise-ready maturity</div>
+                    <div class="cs-bullet"><span class="cs-bullet-arrow">→</span> Delivered ~300% organic growth through structured SEO and content strategy</div>
+                    <div class="cs-bullet"><span class="cs-bullet-arrow">→</span> Implemented enterprise ABM framework aligned to high-value target accounts</div>
+                    <div class="cs-bullet"><span class="cs-bullet-arrow">→</span> Led global brand repositioning and enterprise go-to-market transformation</div>
+                    <div class="cs-bullet"><span class="cs-bullet-arrow">→</span> Established performance marketing and reporting infrastructure for executive decision-making</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- startmyclaim.ai -->
+        <div class="cs reveal">
+            <div class="cs-header">
+                <img src="images/logo-smc.png" alt="Start My Claim" class="cs-logo" loading="lazy">
+                <div class="cs-name-row">
+                    <p class="cs-name">startmyclaim.ai — AI-Native Legal Tech</p>
+                    <span class="cs-tag">AI Start-up</span>
+                </div>
+                <p class="cs-stat">Built solo in 8 weeks &nbsp;·&nbsp; 0 developers &nbsp;·&nbsp; 0 legal staff &nbsp;·&nbsp; Full-stack AI operations</p>
+            </div>
+            <div class="cs-body">
+                <p>I built startmyclaim.ai to answer a specific question: can a single person, working with advanced AI, create and operate a fully functional business from scratch — without a team? The answer, proven in eight weeks, is yes.</p>
+                <p>The platform enables individuals to pursue consumer compensation claims and is live, growing and fully operational. It was built without writing a single line of code, without legal qualifications and without any external resource. AI was deployed across every layer of the operation — product, legal training, website, SEO, paid advertising, content and social — replacing what would typically require a team of five to eight specialists.</p>
+                <p>This was a deliberate experiment to push the boundaries of what AI makes possible when combined with senior strategic expertise. Everything is automated. Content is AI-generated and continuously optimised. The business runs.</p>
+                <p>The approach I developed to build startmyclaim.ai is something I now offer directly to clients: a structured, AI-accelerated capability for building new business functions, products or digital ventures at a fraction of traditional cost and time.</p>
+            </div>
+        </div>
+
+        <!-- Secondary 2×2 -->
+        <div class="cs-secondary reveal">
+            <div class="cs-sec">
+                <p class="cs-sec-tag">Government · Health</p>
+                <img src="images/logo-nhs-official.png" alt="NHS" class="cs-sec-logo" loading="lazy">
+                <h3>NHS Test &amp; Trace</h3>
+                <h4>Head of Digital Marketing — National COVID Response</h4>
+                <p>Led digital marketing during a critical phase of the UK pandemic response, supporting national testing, tracing and NHS COVID-19 App adoption. Built and operated a national digital marketing function at pace, managing multi-million-pound budgets across search, social, display and strategic partnerships.</p>
+            </div>
+            <div class="cs-sec">
+                <p class="cs-sec-tag">Government · Education</p>
+                <img src="images/logo-dfe-cropped.png" alt="Department for Education" class="cs-sec-logo" style="max-width:360px; max-height:50px;" loading="lazy">
+                <h3>Department for Education</h3>
+                <h4>Head of Digital Marketing — National Recruitment Platform</h4>
+                <p>Led digital growth strategy for a national education recruitment platform supporting large-scale adoption across UK state schools. Delivered integrated acquisition programmes enabling over 250,000 monthly job searches and adoption by approximately 80% of state schools.</p>
+            </div>
+            <div class="cs-sec">
+                <p class="cs-sec-tag">Automotive · B2B</p>
+                <img src="images/logo-zf.svg" alt="ZF Group" class="cs-sec-logo" loading="lazy">
+                <h3>ZF Group</h3>
+                <h4>Automotive Aftermarket Demand Programmes</h4>
+                <p>Directed multi-market European demand programmes supporting leading brands within the ZF automotive aftermarket portfolio. Focused on technician influence, distributor ecosystem engagement and structured performance visibility across complex Tier-1 supply chain environments.</p>
+            </div>
+            <div class="cs-sec">
+                <p class="cs-sec-tag">Construction · Enterprise</p>
+                <img src="images/logo-srm.png" alt="Sir Robert McAlpine" class="cs-sec-logo" loading="lazy">
+                <h3>Sir Robert McAlpine</h3>
+                <h4>Digital Visibility &amp; Market Positioning</h4>
+                <p>Led strategic digital visibility and search positioning initiatives to strengthen engagement with emerging stakeholders and new market entrants across complex infrastructure and engineering sectors.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- LOGOS -->
+<section class="logos" id="logos">
+    <div class="inner">
+        <p class="logos-label">Organisations I've Worked With</p>
+        <div class="logo-grid">
+            <div class="logo-item logo-light"><img src="images/logo-tesco.png" alt="Tesco" loading="lazy"></div>
+            <div class="logo-item"><img src="images/logo-nhs-official.png" alt="NHS" loading="lazy"></div>
+            <div class="logo-item"><img src="images/logo-dfe-cropped.png" alt="Department for Education" loading="lazy"></div>
+            <div class="logo-item"><img src="images/logo-zf.svg" alt="ZF Group" loading="lazy"></div>
+            <div class="logo-item"><img src="images/logo-shufti.png" alt="Shufti Pro" loading="lazy"></div>
+            <div class="logo-item logo-light"><img src="images/logo-trw.png" alt="TRW" loading="lazy"></div>
+            <div class="logo-item"><img src="images/logo-srm.png" alt="Sir Robert McAlpine" loading="lazy"></div>
+            <div class="logo-item"><img src="images/logo-smc.png" alt="Start My Claim" loading="lazy"></div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+    <div class="inner">
+        <p class="section-label reveal">Testimonials</p>
+        <h2 class="reveal">What a client says.</h2>
+        <div class="testi-grid">
+            <div class="tcard reveal">
+                <p class="tcard-quote">Paul was my partner for change during a period of major transformation, helping implement new branding, website and demand generation improvements across the business. His strategic thinking and hands-on execution made a real difference to our growth.</p>
+                <div class="tcard-person">
+                    <div class="tcard-avatar">LH</div>
+                    <div>
+                        <p class="tcard-name">Lance Hood</p>
+                        <p class="tcard-title">CMO, Shufti Pro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+    <div class="inner">
+        <div class="contact-grid">
+            <div class="contact-left reveal">
+                <p class="section-label">Contact</p>
+                <h2>Let's talk.</h2>
+                <p>I work with leadership teams to support growth, repositioning and marketing transformation. If your organisation is at an inflection point, I'd welcome a conversation.</p>
+                <p>Typically a 20-minute call is enough to know whether there's a fit.</p>
+                <div class="contact-divider"></div>
+                <a href="https://calendly.com/cyberil/30min" target="_blank" class="contact-calendly">
+                    Book a call via Calendly
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <br><br>
+                <a href="mailto:hello@paulkeene.com" class="contact-detail">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    hello@paulkeene.com
+                </a>
+                <a href="https://www.linkedin.com/in/paulhkeene/" target="_blank" class="contact-detail">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    LinkedIn — Paul Keene
+                </a>
+            </div>
+            <div class="reveal reveal-delay-1">
+                <form
+                    class="contact-form"
+                    action="https://formsubmit.co/cyberil@icloud.com"
+                    method="POST"
+                >
+                    <!-- FormSubmit config -->
+                    <input type="hidden" name="_subject" value="New enquiry from paulkeene.com">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://paulkeene.com/?sent=true">
+                    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company" placeholder="Company name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">How can I help?</label>
+                        <textarea id="message" name="message" placeholder="Tell me a little about where you are and what you're trying to achieve…" required></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-navy" style="width:100%; justify-content:center;">
+                            Send Enquiry
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                        <p class="form-note">I'll respond within one business day. Your details are kept strictly confidential.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <span class="f-logo">
+            <img src="images/paul-logo-white.png" alt="Paul Keene">
+        </span>
+        <div class="f-links">
+            <a href="https://www.linkedin.com/in/paulhkeene/" target="_blank">LinkedIn</a>
+            <a href="mailto:hello@paulkeene.com">hello@paulkeene.com</a>
+        </div>
+        <span class="f-copy">London, United Kingdom &nbsp;·&nbsp; © 2026 Paul Keene</span>
+    </div>
+</footer>
+
+<script>
+    // ── SCROLL ANIMATIONS ─────────────────────────────────
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        },
+        { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+    revealEls.forEach(el => observer.observe(el));
+
+    // ── HAMBURGER MENU ────────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('open');
+        mobileMenu.classList.toggle('open');
+    });
+
+    // Close menu when a link is clicked
+    document.querySelectorAll('.mobile-menu .menu-link').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('open');
+            mobileMenu.classList.remove('open');
+        });
+    });
+
+    // Close menu on outside click
+    document.addEventListener('click', (e) => {
+        if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+            hamburger.classList.remove('open');
+            mobileMenu.classList.remove('open');
+        }
+    });
+</script>
+
+</body>
+</html>

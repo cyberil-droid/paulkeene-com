@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <circle cx="28" cy="30" r="22" stroke="#1C3358" stroke-width="3"/>
+  <circle cx="28" cy="30" r="10" fill="#1C3358"/>
+  <text x="62" y="42" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#1C3358" letter-spacing="0.5">Shufti</text>
+</svg>
