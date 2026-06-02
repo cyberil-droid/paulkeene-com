@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /cv
+Disallow: /PaulKeene_CV_Full.html
+Disallow: /PaulKeene_CV_Vendict.html
+Disallow: /PaulKeene_CV_Gatekeeper.html
+Disallow: /PaulKeene_CV_ProdPad.html
+Disallow: /PaulKeene_CV_EC1Partners.html
+
+Sitemap: https://paulkeene.com/sitemap.xml
